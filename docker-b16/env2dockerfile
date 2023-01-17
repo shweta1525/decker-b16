@@ -1,0 +1,6 @@
+FROM buntu
+WORKDIR /tmp
+RUN echo "hello world" > /tmp/file1
+ENV myname shweta
+COPY testfile1 /tmp
+ADD test.tar.gz /tmp
